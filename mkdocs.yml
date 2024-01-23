@@ -1,8 +1,8 @@
 site_name: SHL - Sophia Hack Lab
 theme:
   name: material
-  logo: docs/img/shl-logo.png
-  favicon: docs/img/shl-logo.png
+  logo: https://0xdc.me/mkdocs-example/docs/img/shl-logo.png
+  favicon: https://0xdc.me/mkdocs-example/docs/img/shl-logo.png
 
   palette:
     primary: black
@@ -19,4 +19,16 @@ nav:
 
 hide:
   - navigation
+  - path
   - toc
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SophiaHackLab
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/sophia-hack-lab/
+
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/shl_sophiahacklab
