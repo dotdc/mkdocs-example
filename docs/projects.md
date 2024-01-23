@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Projects
 
 | Picture                                                 | Project  | Progress |

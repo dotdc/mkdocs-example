@@ -1,8 +1,8 @@
 site_name: SHL - Sophia Hack Lab
 theme:
   name: material
-  logo: https://0xdc.me/mkdocs-example/docs/img/shl-logo.png
-  favicon: https://0xdc.me/mkdocs-example/docs/img/shl-logo.png
+  logo: https://0xdc.me/mkdocs-example/img/shl-logo.png
+  favicon: https://0xdc.me/mkdocs-example/img/shl-logo.png
 
   palette:
     primary: black
@@ -16,11 +16,6 @@ nav:
   - 'index.md'
   - 'projects.md'
   - 'members.md'
-
-hide:
-  - navigation
-  - path
-  - toc
 
 extra:
   social:
