@@ -1,8 +1,22 @@
-site_name: My Docs
+site_name: SHL - Sophia Hack Lab
 theme:
   name: material
+  logo: docs/img/shl-logo.png
+  favicon: docs/img/shl-logo.png
+
+  palette:
+    primary: black
+    accent: green
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 
 nav:
   - 'index.md'
   - 'projects.md'
   - 'members.md'
+
+hide:
+  - navigation
+  - toc
