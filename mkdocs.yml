@@ -1,6 +1,6 @@
 site_name: My Docs
-theme:
-  name: material
+# theme:
+#   name: material
 
 nav:
   - 'index.md'
