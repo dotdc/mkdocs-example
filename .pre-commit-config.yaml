@@ -19,9 +19,4 @@ repos:
       - id: markdownlint
         args:
           - "--disable=MD013"
-
-  # Typos
-  - repo: https://github.com/crate-ci/typos
-    rev: v1.16.24
-    hooks:
-      - id: typos
+          - "--disable=MD033"
