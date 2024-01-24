@@ -32,4 +32,10 @@ extra:
 
 # Doc: https://squidfunk.github.io/mkdocs-material/plugins/
 plugins:
-  - optimize
+  # Catalog: https://github.com/mkdocs/catalog
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+  - privacy
