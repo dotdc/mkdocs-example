@@ -1,4 +1,6 @@
 site_name: SHL - Sophia Hack Lab
+
+# Doc: https://squidfunk.github.io/mkdocs-material/setup/
 theme:
   name: material
   logo: https://0xdc.me/mkdocs-example/img/shl-logo.png
@@ -27,3 +29,7 @@ extra:
 
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/shl_sophiahacklab
+
+# Doc: https://squidfunk.github.io/mkdocs-material/plugins/
+plugins:
+  - optimize
