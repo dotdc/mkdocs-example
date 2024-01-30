@@ -17,7 +17,7 @@ theme:
 nav:
   - 'index.md'
   - 'projects.md'
-  - 'members.md'
+  - 'events.md'
 
 extra:
   social:
